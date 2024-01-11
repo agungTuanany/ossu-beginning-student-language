@@ -1,0 +1,49 @@
+This project will have 3 phases:
+
+    In step one, you will design a solution to a given problem.
+    In step two, you will watch an assessment tutorial video (found in the next tab).
+    In step three, you will do a self-assessment of your solution.
+
+PROBLEM:
+
+Design a World Program with Compound Data. You can be as creative as you like,
+but keep it simple. Above all, follow the recipes! You must also stay within the
+scope of the first part of the course. Do not use language features we have not
+seen in the videos.
+
+If you need inspiration, you can choose to create a program that allows you to
+click on a spot on the screen to create a flower, which then grows over time. If
+you click again the first flower is replaced by a new one at the new position.
+
+You should do all your design work in DrRacket. Following the step-by-step
+recipe in DrRacket will help you be sure that you have a quality solution.
+
+For this quiz you will be asked to design a world program using the HtDW and
+other recipes. Your solution will be assessed according to the following rubric:
+
+    - Is the program safe?
+	The program file should be set to beginning student language and there
+	should be no require declarations other than (require 2htdp/image) and
+	(require 2htdp/universe). If the program is in a language other than BSL,
+	then it gets 0 points for the rest of the rubric.
+    - Is the program "commit ready"?
+	The file should be neat and tidy, no tests or code should be commented out
+	other than stubs and templates and all scratch work should be removed.
+    - Are all HtDW elements complete and do they have high internal quality?
+	All HtDW elements should be present, well formed, and have high internal
+	quality. The file must include Constants, Data Definitions and
+	Functions. The Constants section must be complete, there must be a main
+	function that is correct and operates on a compound type. The main function
+	must have all necessary big-bang options, and for each option, the handler
+	must be present in the file.
+    - Are all HtDD elements complete and do they have high internal quality?
+	Examine the Data Definition for the world state. All elements of HtDD must
+	be present and have high internal quality. This includes a structure
+	definition, type comment, interpretation, examples and the template.
+    - Are all HtDF elements complete and do they have high internal quality?
+	Choose either the to-draw, on-key or on-mouse handler. All elements of HtDF
+	must be present and have high internal quality. This includes the Signature,
+	Purpose, Stub, Examples/Tests, Template and the Function Body.
+    - Does the design satisfy the problem requirements?
+	The program must be a World Program, operate on Compound Data, and be within
+	the scope of the course.
